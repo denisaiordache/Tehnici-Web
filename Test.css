@@ -1,0 +1,78 @@
+body {
+    
+    background-image:url("portocaliu.jpg");
+   
+}
+ 
+.grid {
+    width: 600px;
+    height: 600px;
+    margin: 0 auto;
+    background-color: rgb(228, 228, 238);
+    padding: 20px 50px 50px 50px;
+    border: 2px solid #cbcbcb;
+    
+}
+ 
+.grid h6 {
+    font-family: "sans-serif";
+    background-color: rgb(255, 1, 86);
+    font-size: 40px;
+    text-align: center;
+    color: #b47d7d;
+    padding: 2px 0px;
+    
+}
+ 
+#score {
+    color: rgb(14, 66, 85);
+    text-align: center;
+    font-size: 30px;
+}
+ 
+.grid #question {
+    font-family: "monospace";
+    font-size: 30px;
+    color: rgb(27, 81, 100);
+}
+ 
+.buttons {
+    margin-top: 30px;
+}
+ 
+#btn0, #btn1, #btn2, #btn3 {
+    background-color: rgb(43, 61, 119);
+    width: 250px;
+    font-size: 20px;
+    color: #fff;
+    border: 1px solid #1D3C6A;
+    margin: 10px 40px 10px 0px;
+    padding: 10px 10px;
+}
+ 
+#btn0:hover, #btn1:hover, #btn2:hover, #btn3:hover {
+    cursor: pointer;
+    background-color: rgb(21, 165, 218);
+}
+ 
+#btn0:focus, #btn1:focus, #btn2:focus, #btn3:focus {
+    outline: 0;
+}
+ 
+#progress {
+    color: #6d1a1a;
+    font-size: 18px;
+}
+
+#button{
+    background-color: navy;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}

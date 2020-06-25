@@ -1,0 +1,35 @@
+var express = require('express');
+var router = express.Router();
+var fs = require("fs")
+/* GET users listing. */
+router.post('/', function(req, res, next) {
+
+// Node.js program to demonstrate the
+// fs.readFileSync() method
+
+// Include fs module
+  fs = require('fs');
+
+// Calling the readFileSync() method
+// to read 'input.txt' file
+
+   let copy = fs.readFileSync('./message.txt',
+      {encoding:'utf8', flag:'r'});
+   let currentData = JSON.parse(copy);
+  let info= {
+    fullName: req.body.fname + " " + req.body.lname,
+    mail: req.body.email,
+    text: req.body.textarea
+  };
+  currentData.push(info);
+
+  let data = JSON.stringify(currentData);
+  fs.writeFile('message.txt', data, (err) => {
+    if (err) throw err;
+    console.log('The file has been saved!');
+  });
+  res.send(req.body.fname + " - Salut")
+  //res.send('respond with a resource');
+});
+
+module.exports = router;

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>MacBook</title>
+    <link rel="stylesheet" href="Mac.css">
+    <script src="Mac.js"></script>
+   
+</head>
+<header>
+    <p id="citat">Citatul zilei:</p>
+    <p id="citat2"></p>
+    <br>
+    <h1>MacBook</h1>
+    
+</header>
+<body>
+    <nav>
+        <ul class="lista">
+            <li><a href="Apple.html">Home</a></li>
+            <li><a href="iPhone.html">iPhone</a></li>
+            <li><a href="Mac.html">MacBook</a></li>
+            <li><a href="iPad.html">iPad</a></li>
+            <li style="float: right;"><a href="Test.html">Quiz</a></li>
+        </ul>
+    </nav>
+    <div id="info">
+        <h3>Date generale</h3>
+        <p>MacBook Air este o linie de computere laptop dezvoltate și fabricate de Apple Inc. Este format dintr-o tastatură cu dimensiuni complete, o carcasă de aluminiu prelucrată și o structură subțire de lumină. Air a fost poziționat inițial ca un ultraportabil premium poziționat peste linia MacBook anterioară. De atunci, Air a devenit laptop-ul Apple entry-level datorită întreruperii MacBook-ului inițial în 2011, precum și a scăzut prețurilor la iterațiile ulterioare. În linia actuală de produse, MacBook Air se află sub gama de performanțe MacBook Pro.</p>
+        <p>MacBook Air a fost introdus în ianuarie 2008 cu un ecran de 13,3 inci și a fost promovat ca fiind cel mai subțire notebook din lume. Apple a lansat un MacBook Air din a doua generație în octombrie 2010, cu un șasiu conic reproiectat, stocare standard în stare solidă și a adăugat o versiune mai mică de 11,6 inci. Reviziile ulterioare au adăugat procesoare Intel Core i5 sau i7 și Thunderbolt. Cea de-a treia generație a fost lansată în octombrie 2018, cu dimensiuni reduse, un display Retina și folosește porturi combinate USB-C / Thunderbolt 3 pentru date și putere.</p>
+    </div>
+    <div id="animatie">
+        <h4>La lansarea MacBook Air în ianuarie 2008, Apple a afirmat că este cel mai subțire laptop din lume.</h4>
+    </div>
+    <br><br><br>
+    <article id="comp">
+        <h2 ondblclick="functie()">Specificatii MacBook Air</h2>
+        <ol id ="lista" type="1">
+            <li onclick="changeOlType()">Ecran de 13,3 inchi (diagonala) cu retroiluminare LED și tehnologie IPS; rezoluție nativă de 2560x1600 la 227 pixeli pe inch, suport pentru milioane de culori</li>
+            <li>Senzor Touch ID integrat</li>
+            <li>Procesor dual-core Intel Core i5 de 1,6 GHz, Turbo Boost până la 3,6 GHz, cu 4 MB de memorie cache L3</li>
+            <li>SSD tip PCIe de 256 GB</li>
+            <li>8 GB de memorie integrată LPDDR3 la 2133 MHz</li>
+            <li>Baterie încorporată litiu-polimer de 49,9 wați-oră</li>
+            <li>Intel UHD Graphics 617</li>
+            <li>Cameră FaceTime HD 720p</li>
+        </ol>
+        <input type="radio" name="cifre arabe" id="cifre_a" onclick="cifre_arabe()" checked>
+        <label for="cifre arabe">Cifre arabe</label>
+        <input type="radio" name="cifre romane" id="cifre_r" onclick="cifre_romane()">
+        <label for="cifre romane">Cifre romane</label>
+        <input type="radio" name="litere mari" id="litere_mari" onclick="litere_mari()">
+        <label for="litere mari">Litere mari</label>
+        <input type="radio" name="litere mici" id="litere_mici" onclick="litere_mici()">
+        <label for="litere mici">Litere mici</label>
+    </article>
+    <p id="ora"></p>
+    
+<p style="text-decoration: underline;cursor:pointer;color:white" onclick="myFunction()">Detaii despre sursa paginii:</button></p>
+
+<p style="color:white">Stilurile sectiunii "Date generale" sunt: <br><span id="demo" style="color:white"></span></p>
+
+<canvas id="canvas" width="500" height="400">  Your browser does not support the &lt;canvas&gt; element.</canvas>
+   
+    
+   
+</body>

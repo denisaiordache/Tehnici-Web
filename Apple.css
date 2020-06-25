@@ -1,0 +1,77 @@
+.lista li a{
+    display: block;
+    color: white;
+    background-color: gray;
+    padding: 14px 25px;
+    text-decoration: none;
+    margin:0;
+    
+}
+
+.lista {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: gray;
+    position: sticky;
+}
+.lista li{
+    float: left;
+    
+}
+.lista li a:hover {
+    background-color: dimgray;}
+
+.lista li .elementMeniu{
+        background-color: mediumblue;}
+header h1{
+    text-align:center;
+    text-shadow:silver;
+    font-style: oblique;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+#istoric img{
+    float:right;
+    width:20%;
+    height: 40%;
+}
+
+
+body{
+    background-color: 	#A9A9A9;
+    overflow: hidden;
+    color:black;
+}
+
+#background{
+    position: absolute;
+    width: 0px;
+    height:0px;
+    background-color: #A9A9A9;
+    top: 0 px;
+    left:0px;
+    top:130px;
+}
+
+#container{
+    position:absolute;
+    width:40px;
+    height:70px;
+    background-color: white;
+    border-radius:20px;
+    left:1480px;
+    top:10px;
+}
+
+#scroll{
+    position:absolute;
+    width:30px;
+    height:30px;
+    background-color: rgb(17, 16, 16);
+    border-radius: 20px;
+    left:5px;
+
+
+}
